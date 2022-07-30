@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector
+vArithmetic_Logic_Unit
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1650851854
+!i10b 1
+!s100 FaGX`7C[DA3=;?HICkjNR3
+I5THPDXVagC[9RoKW9cP7j0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Arithmetic_Logic_Unit_sv_unit
+S1
+Z3 dC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Arithmetic_Logic_Unit
+w1650509753
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Arithmetic_Logic_Unit/Arithmetic_Logic_Unit.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Arithmetic_Logic_Unit/Arithmetic_Logic_Unit.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1650851854.000000
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Arithmetic_Logic_Unit/Arithmetic_Logic_Unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Arithmetic_Logic_Unit/Arithmetic_Logic_Unit.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@arithmetic_@logic_@unit
+vArithmetic_Logic_Unit_tb
+R0
+R1
+!i10b 1
+!s100 D7ch3FUm?Zh]SmfQQCkG@2
+IfIKDiTB2[@]f?]TIDzk_d2
+R2
+!s105 Arithmetic_Logic_Unit_tb_sv_unit
+S1
+R3
+w1650800942
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Arithmetic_Logic_Unit/Arithmetic_Logic_Unit_tb.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Arithmetic_Logic_Unit/Arithmetic_Logic_Unit_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Arithmetic_Logic_Unit/Arithmetic_Logic_Unit_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Arithmetic_Logic_Unit/Arithmetic_Logic_Unit_tb.sv|
+!i113 1
+R6
+R7
+n@arithmetic_@logic_@unit_tb

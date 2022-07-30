@@ -1,0 +1,73 @@
+`timescale 1ns/1ps
+
+module Control_Unit_tb ();
+	// Define half period of clock
+	parameter CLK_HALF_PERIOD = 10;
+	
+	/*
+	DECLARE INPUTS AND OUTPUTS HERE
+	*/
+
+	// This var to count for error
+	int error_count;
+
+	// Module instantiation
+	// Replace module_name, a, b, c... with corresponding names
+	module_name DUT (.a(in_a), 
+		 	 .b(in_b), 
+		 	 .c(in_c), 
+		 	 .d(out_d), 
+		 	 .e(out_e)
+			);
+
+	// Generate Clock signal
+	initial begin
+		in_clk = 1'b0;
+		forever #(CLK_HALF_PERIOD) in_clk = ~in_clk;
+	end
+
+	// Test Reset
+	initial begin
+		in_rstn = 1'b1;
+		#x in_rstn = 1'b0;
+		#x in_rstn = 1'b1;
+		//... test multiple times if needed
+	end
+
+	// Generate input stimulus, replace k to align ors shift the operations
+	initial begin
+		error_count = 0;
+		$readmemb("in_a.txt", a_data);
+		$readmemb("in_b.txt", b_data);
+		$readmemb("out_c.txt", expected_c);
+		//... read more files if needed
+		#k;
+		
+		// Replace j with number of test cases
+		//replace n with clk half edge period
+		for (int i = 0; i < j; i++) begin
+			in_a = a_data[i];
+			in_b = b_data[i];
+			#n;
+			// Copy this if block for each output
+			if (out_c !== expected_c[i]) begin
+				error_count += 1;
+				$display("At %0g ns", $time);
+				$display("Error: input 'a' = %0b and input 'b' = %0b", in_a, in_b);
+				$display("Output 'c' = %0b and Expected Output 'c' = %0b", out_c, expected_c[i]);
+			end
+			#n;
+		end
+	end
+	
+	// Always put this block at the end, replace n with the total simulation time
+	initial begin
+		$display("At %0g ns << Starting the Simulation >>", $time);
+		#n;
+		$display("At %0g ns", $time);
+		$display("<< Simulation finishes with %0d output mismatch(es) >>", error_count);
+		$finish;
+		$stop;
+	end
+endmodule
+	

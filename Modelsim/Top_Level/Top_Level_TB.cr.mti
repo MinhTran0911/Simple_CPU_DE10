@@ -1,0 +1,57 @@
+{C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Lab_2_tb
+
+Top level modules:
+	Lab_2_tb
+
+} {} {}} {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Arithmetic_Logic_Unit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Arithmetic_Logic_Unit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Arithmetic_Logic_Unit
+
+Top level modules:
+	Arithmetic_Logic_Unit
+
+} {} {}} {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/BCD_Decoder.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/BCD_Decoder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module BCD_Decoder
+
+Top level modules:
+	BCD_Decoder
+
+} {} {}} {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/B_bus_selector.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/B_bus_selector.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module B_bus_selector
+
+Top level modules:
+	B_bus_selector
+
+} {} {}} {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module GP_Register
+
+Top level modules:
+	GP_Register
+
+} {} {}} {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Sev_Segs_Display
+
+Top level modules:
+	Sev_Segs_Display
+
+} {} {}} {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Control_Unit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Control_Unit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Control_Unit
+
+Top level modules:
+	Control_Unit
+
+} {} {}} {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Lab_2
+
+Top level modules:
+	Lab_2
+
+} {} {}}

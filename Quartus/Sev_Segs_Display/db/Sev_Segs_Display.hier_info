@@ -1,0 +1,14 @@
+|Sev_Segs_Display
+num[0] => Decoder0.IN3
+num[1] => Decoder0.IN2
+num[2] => Decoder0.IN1
+num[3] => Decoder0.IN0
+sev_segs[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+sev_segs[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+sev_segs[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+sev_segs[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+sev_segs[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+sev_segs[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+sev_segs[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

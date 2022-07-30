@@ -1,0 +1,23 @@
+|Control_Unit
+clk => prev_btn_state.CLK
+clk => current_state.CLK
+rstn => current_state.ACLR
+rstn => prev_btn_state.ENA
+opcode[0] => instruction[0].DATAB
+opcode[1] => instruction[1].DATAB
+opcode[2] => instruction[2].DATAB
+opcode[3] => instruction[3].DATAB
+F[0] << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+F[1] << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+F[2] << F.DB_MAX_OUTPUT_PORT_TYPE
+F[3] << Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+B_sel[0] << Decoder2.DB_MAX_OUTPUT_PORT_TYPE
+B_sel[1] << Decoder2.DB_MAX_OUTPUT_PORT_TYPE
+execute_n => always1.IN1
+execute_n => prev_btn_state.DATAIN
+write_a << WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+write_b << write_b.DB_MAX_OUTPUT_PORT_TYPE
+write_o << Decoder2.DB_MAX_OUTPUT_PORT_TYPE
+write_cz << WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,269 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "seven_segs[4][0]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[4][3]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[4][4]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[4][5]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[3][0]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[3][3]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[3][4]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[3][5]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[2][0]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[2][2]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[2][3]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[2][4]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[2][5]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[2][6]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[1][0]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[1][1]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[1][2]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[1][3]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[1][4]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[1][5]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[1][6]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[0][0]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[0][1]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[0][2]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[0][3]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[0][4]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[0][5]",
+					"strict" : false
+				},
+				{
+					"name" : "seven_segs[0][6]",
+					"strict" : false
+				},
+				{
+					"name" : "A_bus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "A_bus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A_bus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A_bus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A_bus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "A_bus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "A_bus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "A_bus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "B_bus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "B_bus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "B_bus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "B_bus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "B_bus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "B_bus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "B_bus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "B_bus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "C_bus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "C_bus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "C_bus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "C_bus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "C_bus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "C_bus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "C_bus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "C_bus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_input[0]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[3]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_input[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_input[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_input[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_input[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ext_input[5]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rstn",
+					"strict" : false
+				},
+				{
+					"name" : "execute_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

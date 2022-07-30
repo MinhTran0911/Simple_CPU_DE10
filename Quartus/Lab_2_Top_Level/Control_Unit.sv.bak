@@ -1,0 +1,29 @@
+module Control_Unit (opcode, F, B_sel, execute, write_a, write_b, write_o, write_cz);
+	
+	input [3:0] opcode, F;
+	input execute;
+	output [1:0] B_sel;
+	output logic write_a, write_b, write_o, write_cz;
+	
+	always_comb
+	begin
+		case(opcode)
+			4'b0000:	begin
+							B_sel = 2'b00;
+							write_a = 0;
+							write_b = 0;
+							write_o = 0;
+							write_cz = 0;
+						end
+			4'b0001:
+			4'b0010:
+			4'b0011:
+			4'b0100:
+			4'b0101:
+			4'b0110:
+			4'b0111:
+			4'b1000:
+			4'b1001:
+			4'b1010:
+			4'b1011:
+			

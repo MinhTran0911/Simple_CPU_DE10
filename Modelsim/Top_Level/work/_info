@@ -1,0 +1,210 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/GP_Register
+vArithmetic_Logic_Unit
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1650802646
+!i10b 1
+!s100 FaGX`7C[DA3=;?HICkjNR3
+IePm[E:M=0e;QAGZ0bD;_<1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Arithmetic_Logic_Unit_sv_unit
+S1
+Z3 dC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level
+w1650179672
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Arithmetic_Logic_Unit.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Arithmetic_Logic_Unit.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1650802646.000000
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Arithmetic_Logic_Unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Arithmetic_Logic_Unit.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@arithmetic_@logic_@unit
+vB_bus_selector
+R0
+R1
+!i10b 1
+!s100 eUZZUZ1MURGHA98ibF>dD1
+I19RZKFk[Iojc?dQ;FXaDe3
+R2
+!s105 B_bus_selector_sv_unit
+S1
+R3
+w1650179758
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/B_bus_selector.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/B_bus_selector.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/B_bus_selector.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/B_bus_selector.sv|
+!i113 1
+R6
+R7
+n@b_bus_selector
+vBCD_Decoder
+R0
+R1
+!i10b 1
+!s100 2fTRi>OO[noRm02n]^jf<1
+I[RJYNV091h5afiVdHejo41
+R2
+!s105 BCD_Decoder_sv_unit
+S1
+R3
+w1650179821
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/BCD_Decoder.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/BCD_Decoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/BCD_Decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/BCD_Decoder.sv|
+!i113 1
+R6
+R7
+n@b@c@d_@decoder
+vControl_Unit
+R0
+R1
+!i10b 1
+!s100 C3HE4jH^28VPRSj8647Fz1
+IDdHb`EYQGZmUM;S2Lgze00
+R2
+!s105 Control_Unit_sv_unit
+S1
+R3
+w1650181570
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Control_Unit.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Control_Unit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Control_Unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Control_Unit.sv|
+!i113 1
+R6
+R7
+n@control_@unit
+vGP_Register
+R0
+R1
+!i10b 1
+!s100 H4JbgW]fQDRm_QCFbYf9F0
+IK8[39zmfDJ7ELYVNGhbcZ0
+R2
+!s105 GP_Register_sv_unit
+S1
+R3
+w1650179740
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv|
+!i113 1
+R6
+R7
+n@g@p_@register
+vLab_2
+R0
+R1
+!i10b 1
+!s100 W58CLJDLCQfL_zgNkQk0e3
+I:DYkbmX8dX<DC6=79<2F63
+R2
+!s105 Lab_2_sv_unit
+S1
+R3
+w1650545638
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv|
+!i113 1
+R6
+R7
+n@lab_2
+vLab_2_tb
+R0
+R1
+!i10b 1
+!s100 mF<P6<7SN`bG7KMPdSAT>0
+Io1OljkI7<RbA2Ecal?N=S1
+R2
+!s105 Lab_2_tb_sv_unit
+S1
+R3
+w1650800279
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2_tb.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2_tb.sv|
+!i113 1
+R6
+R7
+n@lab_2_tb
+vSev_Segs_Display
+R0
+R1
+!i10b 1
+!s100 `I3Y7B4=Pa;POe@C;?]aH2
+IfMWG<]nhh:W4fMYciznkS0
+R2
+!s105 Sev_Segs_Display_sv_unit
+S1
+R3
+w1650210326
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv|
+!i113 1
+R6
+R7
+n@sev_@segs_@display

@@ -1,0 +1,46 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector_TB.mpf}
+# Loading project B_bus_selector_TB
+# Compile of B_bus_selector_tb.sv was successful.
+# Compile of B_bus_selector.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.B_bus_selector_tb
+# vsim -gui work.B_bus_selector_tb 
+# Start time: 19:43:51 on Apr 24,2022
+# Loading sv_std.std
+# Loading work.B_bus_selector_tb
+# Loading work.B_bus_selector
+add wave -position insertpoint  \
+sim:/B_bus_selector_tb/in_B_reg \
+sim:/B_bus_selector_tb/in_ext_input \
+sim:/B_bus_selector_tb/in_B_sel \
+sim:/B_bus_selector_tb/out_B_bus
+run -all
+# At 0 ns << Starting the Simulation >>
+# At 40 ns
+# Error: input 'B_reg' = 10111101, input 'ext_input' = 00001111 and input 'B_sel' = 01
+# Output 'B_bus' = 00000000 and Expected Output 'B_bus' = xxxxxxxx
+# At 60 ns
+# Error: input 'B_reg' = 11110011, input 'ext_input' = 00110011 and input 'B_sel' = 10
+# Output 'B_bus' = 00000000 and Expected Output 'B_bus' = xxxxxxxx
+# At 110 ns
+# << Simulation finishes with 2 output mismatch(es) >>
+# ** Note: $finish    : C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector_tb.sv(57)
+#    Time: 110 ns  Iteration: 0  Instance: /B_bus_selector_tb
+# 1
+# Break in Module B_bus_selector_tb at C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector_tb.sv line 57
+restart
+run -all
+# At 0 ns << Starting the Simulation >>
+# At 110 ns
+# << Simulation finishes with 0 output mismatch(es) >>
+# ** Note: $finish    : C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector_tb.sv(57)
+#    Time: 110 ns  Iteration: 0  Instance: /B_bus_selector_tb
+# 1
+# Break in Module B_bus_selector_tb at C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector_tb.sv line 57
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/wave.do}
+quit -sim
+# End time: 19:46:23 on Apr 24,2022, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 0
+# reading C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Arithmetic_Logic_Unit_TB

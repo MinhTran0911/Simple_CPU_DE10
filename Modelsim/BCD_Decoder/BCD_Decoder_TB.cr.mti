@@ -1,0 +1,15 @@
+{C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/BCD_Decoder/BCD_Decoder.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/BCD_Decoder/BCD_Decoder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module BCD_Decoder
+
+Top level modules:
+	BCD_Decoder
+
+} {} {}} {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/BCD_Decoder/BCD_Decoder_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/BCD_Decoder/BCD_Decoder_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module BCD_Decoder_tb
+
+Top level modules:
+	BCD_Decoder_tb
+
+} {} {}}

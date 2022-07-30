@@ -1,0 +1,26 @@
+Quartus Prime Archive log --	C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/Lab_2_tmp_archive.qarlog
+
+Archive:	C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/Lab_2_tmp_archive.qar
+Date:		Sat Apr 16 19:35:24 2022
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/Arithmetic_Logic_Unit.sv
+C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/B_bus_selector.sv
+C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/Control_Unit.sv
+C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/GP_Register.sv
+C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/Lab_2.qpf
+C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/Lab_2.qsf
+C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/Lab_2.sv
+C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/Lab_2_assignment_defaults.qdf
+C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/Sev_Segs_Display.sv
+	======= Total: 9 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat Apr 16 19:35:25 2022
+Source archive file:	C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/Quartus_Proj/Lab_2_Top_Level/Lab_2_tmp_archive.qar
+Archive was extracted into	C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/Quartus/Lab_2_testing/
+		 - successfully.

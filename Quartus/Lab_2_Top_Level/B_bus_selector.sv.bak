@@ -1,0 +1,10 @@
+module B_bus_selector (B_reg, ext_input, B_sel, B_bus);
+	
+	input [7:0] B_reg, ext_input;
+	input [1:0] B_sel;
+	output logic [7:0] B_bus;
+	
+	assign B_bus = (B_sel == 2'b00) ? B_reg :
+						(B_sel == 2'b11) ? ext_input : 2'b00;
+						
+endmodule 

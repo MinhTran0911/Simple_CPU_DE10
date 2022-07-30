@@ -1,0 +1,31 @@
+module sev_segs_display(data, sev_segs);
+	
+	input [7:0] data;
+	output [3:0] sev_segs[2:0];
+	
+	logic [3:0] hundreds, tens, ones;
+	
+	// Seven segment pattern
+	localparam ZERO = 7'b1000000;
+	localparam ONE = 7'b1111001;
+	localparam TWO = 7'b0100100;
+	localparam THREE = 7'b0110000;
+	localparam FOUR = 7'b0011001;
+	localparam FIVE = 7'b0010010;
+	localparam SIX = 7'b0000010;
+	localparam SEVEN = 7'b1111000
+	localparam EIGHT = 7'b0000000;
+	localparam NINE = 7'b0010000;
+	
+	localparam pattern = {ZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE};
+	
+	assign hundreds = data / 100;
+	assign tens = (data - hundredth) / 10;
+	assign ones = data % 10;
+	
+	assign sev_segs[2] = pattern[hundreds];
+	assign sev_segs[1] = pattern[tens];
+	assign sev_segs[0] = pattern[ones];
+			
+	
+endmodule 

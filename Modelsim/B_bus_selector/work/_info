@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/BCD_Decoder
+vB_bus_selector
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1650804225
+!i10b 1
+!s100 eUZZUZ1MURGHA98ibF>dD1
+IH4[2?9CgUCJMmWI2lUJT]2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 B_bus_selector_sv_unit
+S1
+Z3 dC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector
+w1650179758
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1650804225.000000
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@b_bus_selector
+vB_bus_selector_tb
+R0
+R1
+!i10b 1
+!s100 j[PJ026IUJCdFcdN`;QAU1
+I0OhMz^CR5JRCk<Nd[fhbD2
+R2
+!s105 B_bus_selector_tb_sv_unit
+S1
+R3
+w1650804214
+8C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector_tb.sv
+FC:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/B_bus_selector/B_bus_selector_tb.sv|
+!i113 1
+R6
+R7
+n@b_bus_selector_tb

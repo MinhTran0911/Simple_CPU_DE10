@@ -1,0 +1,75 @@
+vsim -gui work.Lab_2_tb
+# vsim -gui work.Lab_2_tb 
+# Start time: 17:15:22 on Apr 22,2022
+# Loading sv_std.std
+# Loading work.Lab_2_tb
+# Loading work.Lab_2
+# Loading work.Control_Unit
+# Loading work.B_bus_selector
+# Loading work.Arithmetic_Logic_Unit
+# Loading work.GP_Register
+# Loading work.BCD_Decoder
+# Loading work.Sev_Segs_Display
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(65): [PCDPC] - Port size (8) does not match connection size (1) for port 'd'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Reg_CF File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(65): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Reg_CF File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(67): [PCDPC] - Port size (8) does not match connection size (1) for port 'd'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Reg_ZF File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(67): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Reg_ZF File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(78): [PCDPC] - Port size (4) does not match connection size (1) for port 'num'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Carry_Display File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(79): [PCDPC] - Port size (4) does not match connection size (1) for port 'num'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Zero_Display File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv
+add wave -position insertpoint  \
+sim:/Lab_2_tb/in_clk \
+sim:/Lab_2_tb/in_rstn \
+sim:/Lab_2_tb/in_execute_n \
+sim:/Lab_2_tb/in_ext_input \
+sim:/Lab_2_tb/in_opcode \
+sim:/Lab_2_tb/out_A_bus \
+sim:/Lab_2_tb/out_B_bus \
+sim:/Lab_2_tb/out_C_bus \
+sim:/Lab_2_tb/out_out \
+sim:/Lab_2_tb/out_carry_out \
+sim:/Lab_2_tb/out_zero_out
+run -all
+# At 0 ns << Starting the Simulation >>
+# << Simulation finishes with 0 output mismatch(es) >>
+# ** Note: $finish    : C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2_tb.sv(114)
+#    Time: 5200 ns  Iteration: 0  Instance: /Lab_2_tb
+# 1
+# Break in Module Lab_2_tb at C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2_tb.sv line 114
+restart -f
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(65): [PCDPC] - Port size (8) does not match connection size (1) for port 'd'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Reg_CF File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(65): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Reg_CF File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(67): [PCDPC] - Port size (8) does not match connection size (1) for port 'd'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Reg_ZF File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(67): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Reg_ZF File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/GP_Register.sv
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(78): [PCDPC] - Port size (4) does not match connection size (1) for port 'num'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Carry_Display File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv
+# ** Warning: (vsim-3015) C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2.sv(79): [PCDPC] - Port size (4) does not match connection size (1) for port 'num'. The port definition is at: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab_2_tb/DUT/Zero_Display File: C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Sev_Segs_Display.sv
+add wave -position insertpoint  \
+sim:/Lab_2_tb/out_out \
+sim:/Lab_2_tb/out_carry_out \
+sim:/Lab_2_tb/out_zero_out
+add wave -position insertpoint  \
+{sim:/Lab_2_tb/out_seven_segs[0]} \
+{sim:/Lab_2_tb/out_seven_segs[1]} \
+{sim:/Lab_2_tb/out_seven_segs[2]} \
+{sim:/Lab_2_tb/out_seven_segs[3]} \
+{sim:/Lab_2_tb/out_seven_segs[4]}
+run -all
+# At 0 ns << Starting the Simulation >>
+# << Simulation finishes with 0 output mismatch(es) >>
+# ** Note: $finish    : C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2_tb.sv(114)
+#    Time: 5200 ns  Iteration: 0  Instance: /Lab_2_tb
+# 1
+# Break in Module Lab_2_tb at C:/Users/Minh/OneDrive - RMIT University/Advanced_Digital_Design_1_2022A/EEET2475_s3818343_s3804791_Lab_2/ModelSim_Proj/Top_Level/Lab_2_tb.sv line 114
+# End time: 18:36:56 on Apr 24,2022, Elapsed time: 49:21:34
+# Errors: 0, Warnings: 12
